@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/showWebsite"
+            android:icon="@drawable/ic_public"
+            android:title="Visit Website">
+
+        </item>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_bottom">
+
+
+        <item android:title="@string/smartphone_id"
+            android:icon="@drawable/ic_phone">
+        </item>
+
+        <item android:title="Version 0.5"
+            android:icon="@drawable/ic_info">
+        </item>
+    </group>
+
+
+    <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Timeline" />
+
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_query_builder_black_24dp"
+            android:title="Timeline" />
+       <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_code"
+            android:title="Gallery" />
+    </group>    -->
+
+ </menu>
